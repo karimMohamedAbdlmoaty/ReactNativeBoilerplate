@@ -1,0 +1,104 @@
+import { StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    width:335,
+    marginRight:20,
+    marginLeft:20,
+    borderColor: 'gray', 
+    borderTopWidth: 1,
+    borderRightWidth: 1,
+    borderLeftWidth: 1,
+    height: 60,
+  },
+  fullName:{
+    flex: 1,
+    flexDirection:'row-reverse',
+    justifyContent:'center',
+    alignItems:'center',
+  },
+  fullNameInputBody:{
+    borderWidth: 0, paddingRight:8
+  },
+  fullNameLabel:{
+    flex:1,
+    alignItems:'flex-end',
+    justifyContent:'center',
+    marginRight:8,
+    width:120,
+  },
+  fullNameInput:{
+    flex:2,
+    flexDirection:'row-reverse',
+    width:500
+  },
+  mail:{
+    flex: 1,
+    justifyContent:'center',
+    alignItems:'center',
+    flexDirection:'row-reverse',
+    borderColor: 'gray', 
+    borderWidth: 1,
+    borderTopWidth:0,
+    borderBottomWidth:0,
+  },
+  mailLabel:{
+    flex: 1,
+    alignItems:'flex-end',
+    justifyContent:'center',
+    height: 40,
+    marginRight:8
+  },
+  mailInput:{
+    flex: 2,
+    flexDirection:'row-reverse',
+  },
+  password:{
+    flex: 1,
+    flexDirection:'row-reverse',
+    justifyContent:'center',
+    alignItems:'center',
+    borderColor: 'gray', 
+    borderWidth: 1,
+  },
+  passwordLabel:{
+    flex: 1,
+    alignItems:'flex-end',
+    justifyContent:'center',
+    height: 40,
+    marginRight:8
+  },
+  passwordInput:{
+    flex: 2,
+  },
+  newAccount:{
+    flex: 1,
+    justifyContent:'center',
+    alignItems:'center',
+    backgroundColor:'yellow',
+  },
+  newAccountText:{
+    fontSize:20
+  },
+  policy:{
+    flex: 2,
+    alignItems:'flex-end',
+    marginTop:15,
+  },
+  policyText:{
+    fontSize:12,
+    alignItems:'flex-end',
+    justifyContent:'flex-end',
+    marginRight:8,
+    marginLeft:7,
+    textAlign:'center'
+  },
+  colored:{
+    color:'#467195'
+  }
+});
+      
+  
+  
+  
+    
